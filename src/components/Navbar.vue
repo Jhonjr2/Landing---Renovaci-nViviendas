@@ -16,14 +16,14 @@ import {
 import {
   Sheet,
   SheetContent,
-  SheetFooter,
+  // SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
+// import { Separator } from "@/components/ui/separator";
 
 import { ChevronsDown, Menu } from "lucide-vue-next";
 import ToggleTheme from "./ToggleTheme.vue";
@@ -79,8 +79,8 @@ const isOpen = ref<boolean>(false);
 <template>
   <header
     :class="{
-      'shadow-light': mode === 'light',
-      'shadow-dark': mode === 'dark',
+      // 'shadow-light': mode === 'light',
+      // 'shadow-dark': mode === 'dark',
       'w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border z-40 rounded-2xl flex justify-between items-center p-2 bg-card shadow-md': true,
     }"
   >
@@ -138,11 +138,11 @@ const isOpen = ref<boolean>(false);
             </div>
           </div>
 
-          <SheetFooter class="flex-col sm:flex-col justify-start items-start">
+          <!-- <SheetFooter class="flex-col sm:flex-col justify-start items-start">
             <Separator class="mb-2" />
 
             <ToggleTheme />
-          </SheetFooter>
+          </SheetFooter> -->
         </SheetContent>
       </Sheet>
     </div>
