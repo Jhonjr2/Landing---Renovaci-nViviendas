@@ -198,7 +198,7 @@ const isOpen = ref<boolean>(false);
     </NavigationMenu>
 
     <div class="hidden lg:flex">
-      <ToggleTheme />
+      <!-- <ToggleTheme /> -->
 
       <Button
         as-child
