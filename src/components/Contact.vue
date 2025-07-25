@@ -46,7 +46,7 @@ const handleSubmit = () => {
 
   invalidInputForm.value = false
 
-  const mailToLink = `mailto:leomirandadev@gmail.com?subject=${encodeURIComponent(subject)}&body=Hola, soy ${firstName} ${lastName}, mi correo es ${email}.%0D%0A%0D%0A${encodeURIComponent(message)}`
+  const mailToLink = `mailto:Joseagomar2009@hotmail.com?subject=${encodeURIComponent(subject)}&body=Hola, soy ${firstName} ${lastName}, mi correo es ${email}.%0D%0A%0D%0A${encodeURIComponent(message)}`
   window.location.href = mailToLink
 }
 </script>
