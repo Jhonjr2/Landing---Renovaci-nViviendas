@@ -29,54 +29,53 @@ interface ReviewProps {
 
 const reviewList: ReviewProps[] = [
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    image: "",
+    name: "example",
+    userName: "",
     comment:
-      "Wow Vue + Shadcn-Vue is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "lorem ipsum dolor sit amet consectetur adipisicing elit",
     rating: 5.0,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    image: "",
+    name: "example",
+    userName: "",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
-    rating: 4.8,
-  },
-
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
-    comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    rating: 4.9,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "lorem ipsum dolor sit amet consectetur adipisicing elit",
     rating: 5.0,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    image: "",
+    name: "example",
+    userName: "",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "lorem ipsum dolor sit amet consectetur adipisicing elit",
     rating: 5.0,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    image: "",
+    name: "example",
+    userName: "",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    rating: 4.9,
+      "lorem ipsum dolor sit amet consectetur adipisicing elit",
+    rating: 5.0,
   },
+  {
+    image: "",
+    name: "example",
+    userName: "",
+    comment:
+      "lorem ipsum dolor sit amet consectetur adipisicing elit",
+    rating: 5.0,
+  },
+  {
+    image: "",
+    name: "example",
+    userName: "",
+    comment:
+      "lorem ipsum dolor sit amet consectetur adipisicing elit",
+    rating: 5.0,
+  },  
 ];
 </script>
 
@@ -124,7 +123,7 @@ const reviewList: ReviewProps[] = [
               <div class="flex flex-row items-center gap-4">
                 <Avatar>
                   <AvatarImage
-                    src="https://www.radix-vue.com/logo.svg"
+                    src=""
                     alt="@radix-vue"
                   />
                   <AvatarFallback>SV</AvatarFallback>
