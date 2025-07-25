@@ -26,8 +26,10 @@ import { Button } from "@/components/ui/button";
 // import { Separator } from "@/components/ui/separator";
 
 import { ChevronsDown, Menu } from "lucide-vue-next";
-import ToggleTheme from "./ToggleTheme.vue";
+// import ToggleTheme from "./ToggleTheme.vue";
 import WhatsAppIcon from "@/icons/WhatsAppIcon.vue";
+import InstagramIcon from "@/icons/InstagramIcon.vue";
+import FacebookIcon from "@/icons/FacebookIcon.vue";
 
 interface RouteProps {
   href: string;
@@ -200,6 +202,34 @@ const isOpen = ref<boolean>(false);
     <div class="hidden lg:flex">
       <!-- <ToggleTheme /> -->
 
+      <Button
+        as-child
+        size="sm"
+        variant="ghost"
+        aria-label="View on WhatsApp"
+      >
+        <a
+          aria-label="View on WhatsApp"
+          href="https://www.facebook.com/renuevavivienda?mibextid=wwXIfr&rdid=mfBGumZv9Wb8R46H&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1AR8qphvEx%2F%3Fmibextid%3DwwXIfr#"
+          target="_blank"
+        >
+          <FacebookIcon class="size-5" />
+        </a>
+      </Button>
+      <Button
+        as-child
+        size="sm"
+        variant="ghost"
+        aria-label="View on WhatsApp"
+      >
+        <a
+          aria-label="View on WhatsApp"
+          href="https://www.instagram.com/renueva_tu_vivienda?igsh=MTR6d3EzanJsdndqZA=="
+          target="_blank"
+        >
+          <InstagramIcon class="size-5" />
+        </a>
+      </Button>
       <Button
         as-child
         size="sm"
