@@ -76,10 +76,6 @@ const iconMap: Record<
 
 <template>
   <section id="features" class="container py-24 sm:py-32">
-    <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-      Características
-    </h2>
-
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
       ¿Por qué elegirnos?
     </h2>

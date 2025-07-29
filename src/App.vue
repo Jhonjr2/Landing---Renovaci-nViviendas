@@ -19,10 +19,10 @@ import Proyect from "./components/Proyect.vue";
   <Sponsors />
   <Benefits />
   <Features />
+  <Team />
   <Services />
   <HowItWorks />
   <Proyect />
-  <Team />
   <Contact />
   <FAQ />
   <Footer />

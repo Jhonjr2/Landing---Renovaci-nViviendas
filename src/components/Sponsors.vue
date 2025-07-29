@@ -49,7 +49,7 @@ const iconMap: Record<
 
 <template>
   <section id="servicios" class="max-w-[75%] mx-auto pb-20 sm:pb-24">
-    <h2 class="text-base sm:text-lg md:text-xl text-center font-semibold text-gray-800 mb-6">
+    <h2 class="text-sm sm:text-lg md:text-3xl text-center font-semibold text-gray-800 mb-12">
       Nuestros Servicios Destacados
     </h2>
 
@@ -70,8 +70,9 @@ const iconMap: Record<
               :is="iconMap[icon]"
               class="w-6 h-6 text-[#1A8ACC]"
               stroke-width="1.5"
+              style="width: 42px; height: 42px;"
             />
-            <span class="whitespace-nowrap">{{ name }}</span>
+            <span class="whitespace-nowrap text-lg">{{ name }}</span>
           </div>
         </div>
       </Marquee>

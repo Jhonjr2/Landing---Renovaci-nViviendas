@@ -63,19 +63,19 @@ const benefitList: BenefitsProps[] = [
 </script>
 
 <template>
-  <section id="benefits" class="container py-20 sm:py-28">
+  <section id="benefits" class="container py-20 sm:py-28 bg-[#1A8ACC] bg-opacity-60">
     <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">
       <!-- Texto principal -->
       <div>
-        <h2 class="text-sm sm:text-base text-primary mb-2 tracking-wider uppercase">
+        <h2 class="text-sm sm:text-base text-white mb-2 tracking-wider uppercase">
           ¿Por qué elegirnos?
         </h2>
 
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">
           Remodelamos tu hogar con estilo y calidad
         </h2>
 
-        <p class="text-base md:text-lg text-muted-foreground mb-8">
+        <p class="text-base md:text-lg text-white mb-8">
           Ofrecemos soluciones personalizadas en pintura, diseño, instalación de cielo raso, mobiliario en WPC y más para que tu casa se sienta como nueva.
         </p>
       </div>
