@@ -19,7 +19,7 @@ import Separator from "./ui/separator/Separator.vue";
           >
             <img :src="imgLogo" alt="" style="width: 60px; height: 60px;">
 
-            <h3 class="text-2xl">Viviendas</h3>
+            <h3 class="text-xl">Renueva tu Vivienda</h3>
           </a>
         </div>
 
@@ -125,7 +125,7 @@ import Separator from "./ui/separator/Separator.vue";
             href=""
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Viviendas
+            Renueva tu Vivienda
           </a>
         </h3>
       </section>

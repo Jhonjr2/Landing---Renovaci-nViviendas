@@ -90,7 +90,7 @@ const isOpen = ref<boolean>(false);
   <img src="../assets/img/logo1.ico" alt="Logo"
        style="height: 40px; width: 40px; border-radius: 8px; object-fit: cover;" />
   <span style="font-weight: bold;" :class="mode === 'light' ? 'text-transparent bg-gradient-to-r from-[#1A8ACC] to-[#9C27B0] bg-clip-text' : 'text-transparent bg-gradient-to-r from-[#1A8ACC] to-white bg-clip-text'"
-  >Viviendas</span>
+  >Renueva tu Vivienda</span>
 </a>
 
     <!-- Mobile -->
@@ -117,7 +117,7 @@ const isOpen = ref<boolean>(false);
                   <ChevronsDown
                     class="bg-gradient-to-tr from-primary/70 via-primary to-primary/70 rounded-lg size-9 mr-2 border text-white"
                   />
-                  Viviendas
+                  Renueva tu Vivienda
                 </a>
               </SheetTitle>
             </SheetHeader>
