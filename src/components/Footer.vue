@@ -27,7 +27,7 @@ import Separator from "./ui/separator/Separator.vue";
           <h3 class="font-bold text-lg">Contact</h3>
           <div>
             <a
-              href="https://wa.me/573116164386?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información."
+              href="https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información."
               class="opacity-60 hover:opacity-100"
             >
               Whatsapp
@@ -87,7 +87,7 @@ import Separator from "./ui/separator/Separator.vue";
           <h3 class="font-bold text-lg">Help</h3>
           <div>
             <a
-              href="https://wa.me/573116164386?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información."
+              href="https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información."
               class="opacity-60 hover:opacity-100"
             >
               Contáctanos 

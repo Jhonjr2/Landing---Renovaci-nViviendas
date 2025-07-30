@@ -238,7 +238,7 @@ const isOpen = ref<boolean>(false);
       >
         <a
           aria-label="View on WhatsApp"
-          href="https://wa.me/573116164386?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información."
+          href="https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información."
           target="_blank"
         >
           <WhatsAppIcon class="size-5" />

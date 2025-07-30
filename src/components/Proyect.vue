@@ -1,145 +1,52 @@
-<script setup lang="ts">
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+<template>
+  <div class="min-h-screen bg-gradient-to-br from-indigo-600 via-blue-500 to-indigo-800 text-white flex flex-col items-center justify-center p-8 relative overflow-hidden">
+    
+    <!-- Icono esté relacionado con construcción -->
+    <div class="absolute top-10 left-10 animate-bounce">
+      <img src="https://cdn-icons-png.flaticon.com/512/2902/2902170.png" alt="Renovación de casas" class="w-24 h-24 rounded-full border-4 border-white shadow-lg" />
+      <p class="mt-2 font-bold text-center text-white">Instructor Especializado</p>
+    </div>
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+    <!-- Resto del contenido -->
+    <h1 class="text-5xl font-extrabold text-center mb-8 drop-shadow-lg animate-fade-in-up">
+      Aprende a Crear tus Propios Productos de Construcción
+    </h1>
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+    <div class="w-full max-w-4xl grid gap-6 md:grid-cols-2 animate-fade-in delay-500">
+      <div v-for="(curso, i) in cursos" :key="i" class="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 transition-transform duration-300">
+        <h2 class="text-xl font-bold text-yellow-300 mb-2 animate-pulse">{{ curso }}</h2>
+        <p class="text-white text-sm opacity-90">Incluye guía paso a paso, materiales y tips profesionales.</p>
+      </div>
+    </div>
 
-import { Star } from "lucide-vue-next";
+    <div class="mt-12 animate-fade-in-up delay-1000">
+      <a href="https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." class="bg-yellow-400 text-indigo-900 font-bold py-3 px-8 rounded-full shadow-xl hover:bg-yellow-300 hover:scale-105 transition-transform">
+        ¡Inscríbete Ahora!
+      </a>
+    </div>
 
-interface ReviewProps {
-  image: string;
-  name: string;
-  userName: string;
-  comment: string;
-  rating: number;
-}
+    <div class="absolute -top-20 -right-20 w-[400px] h-[400px] bg-yellow-300 opacity-20 rounded-full animate-ping"></div>
+  </div>
+</template>
 
-const reviewList: ReviewProps[] = [
-  {
-    image: "",
-    name: "example",
-    userName: "",
-    comment:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit",
-    rating: 5.0,
-  },
-  {
-    image: "",
-    name: "example",
-    userName: "",
-    comment:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit",
-    rating: 5.0,
-  },
-  {
-    image: "",
-    name: "example",
-    userName: "",
-    comment:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit",
-    rating: 5.0,
-  },
-  {
-    image: "",
-    name: "example",
-    userName: "",
-    comment:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit",
-    rating: 5.0,
-  },
-  {
-    image: "",
-    name: "example",
-    userName: "",
-    comment:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit",
-    rating: 5.0,
-  },
-  {
-    image: "",
-    name: "example",
-    userName: "",
-    comment:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit",
-    rating: 5.0,
-  },  
+<script setup>
+const cursos = [
+  "Cómo hacer pintura tipo 1 y tipo 2",
+  "Cómo hacer estuco acrílico exterior e interior",
+  "Cómo hacer pega cerámica y de porcelanato",
+  "Cómo hacer un anti hongo",
+  "Cómo hacer un estuco para piscina",
+  "Cómo hacer un impermeabilizante",
+  "Cómo hacer un aditivo para pintura",
 ];
 </script>
 
-<template>
-  <section
-    id="proyectos"
-    class="container py-24 sm:py-32"
-  >
-    <div class="text-center mb-8">
-      <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-        Proyectos
-      </h2>
-
-      <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-        Nuestros Proyectos Destacados
-      </h2>
-    </div>
-
-    <Carousel
-      :opts="{
-        align: 'start',
-      }"
-      class="relative w-[80%] sm:w-[90%] lg:max-w-screen-xl mx-auto"
-    >
-      <CarouselContent>
-        <CarouselItem
-          v-for="review in reviewList"
-          :key="review.name"
-          class="md:basis-1/2 lg:basis-1/3"
-        >
-          <Card class="bg-muted/50 dark:bg-card">
-            <CardContent class="pt-6 pb-0">
-              <div class="flex gap-1 pb-6">
-                <Star class="size-4 fill-primary text-primary" />
-                <Star class="size-4 fill-primary text-primary" />
-                <Star class="size-4 fill-primary text-primary" />
-                <Star class="size-4 fill-primary text-primary" />
-                <Star class="size-4 fill-primary text-primary" />
-              </div>
-
-              "{{ review.comment }}"
-            </CardContent>
-
-            <CardHeader>
-              <div class="flex flex-row items-center gap-4">
-                <Avatar>
-                  <AvatarImage
-                    src=""
-                    alt="@radix-vue"
-                  />
-                  <AvatarFallback>SV</AvatarFallback>
-                </Avatar>
-
-                <div class="flex flex-col">
-                  <CardTitle class="text-lg">{{ review.name }}</CardTitle>
-                  <CardDescription>{{ review.userName }}</CardDescription>
-                </div>
-              </div>
-            </CardHeader>
-          </Card>
-        </CarouselItem>
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
-  </section>
-</template>
+<style scoped>
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fade-in-up 1s ease-out forwards;
+}
+</style>

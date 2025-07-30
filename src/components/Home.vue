@@ -75,7 +75,7 @@ onUnmounted(() => {
           </Button>
 
           <Button as-child variant="secondary" class="w-5/6 md:w-1/4 font-bold">
-            <a href="https://wa.me/573116164386?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información."
+            <a href="https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información."
              target="_blank">Contáctanos</a>
           </Button>
         </div>

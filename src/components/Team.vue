@@ -35,7 +35,7 @@ const teamList: TeamProps[] = [
     positions: ["Panel decorativo en mármol con iluminación LED y nichos para licores: elegancia y funcionalidad en un solo diseño."],
     socialNetworks: [
       { name: "Facebook", url: "https://www.facebook.com/share/1AR8qphvEx/?mibextid=wwXIfr" },
-      { name: "WhatsApp", url: "https://wa.me/573116164386?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." },
+      { name: "WhatsApp", url: "https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." },
       { name: "Instagram", url: "https://www.instagram.com/" },
     ],
   },
@@ -46,7 +46,7 @@ const teamList: TeamProps[] = [
     positions: ["Estructura de closet/vitrina blanca", "Luces en la parte superior", "Repisas de vidrio", "Marcos blancos", "Diseño limpio y moderno"],
     socialNetworks: [
       { name: "Facebook", url: "https://www.facebook.com/share/1AR8qphvEx/?mibextid=wwXIfr" },
-      { name: "WhatsApp", url: "https://wa.me/573116164386?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." },
+      { name: "WhatsApp", url: "https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." },
       { name: "Instagram", url: "https://www.instagram.com/" },
     ],
   },
@@ -57,7 +57,7 @@ const teamList: TeamProps[] = [
     positions: ["Panel decorativo de listones verticales en acabado madera clara, con iluminación LED cálida integrada. Ideal para espacios modernos que buscan combinar diseño y funcionalidad."],
     socialNetworks: [
       { name: "Facebook", url: "https://www.facebook.com/share/1AR8qphvEx/?mibextid=wwXIfr" },
-      { name: "WhatsApp", url: "https://wa.me/573116164386?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." },
+      { name: "WhatsApp", url: "https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." },
       { name: "Instagram", url: "https://www.instagram.com/" },
     ],
   },
@@ -68,7 +68,7 @@ const teamList: TeamProps[] = [
     positions: ["Lujosa lámpara colgante con detalles en cristal y acabados en negro, perfecta para realzar techos modernos con iluminación ambiental LED"],
     socialNetworks: [
       { name: "Facebook", url: "https://www.facebook.com/share/1AR8qphvEx/?mibextid=wwXIfr" },
-      { name: "WhatsApp", url: "https://wa.me/573116164386?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." },
+      { name: "WhatsApp", url: "https://wa.me/573216978975?text=Hola%2C%20estoy%20interesado%20en%20renovar%20mi%20vivienda%20y%20quisiera%20más%20información." },
       { name: "Instagram", url: "https://www.instagram.com/" },
     ],
   },
