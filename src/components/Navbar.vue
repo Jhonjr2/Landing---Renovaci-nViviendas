@@ -47,8 +47,8 @@ const routeList: RouteProps[] = [
     label: "Servicios",
   },
   {
-    href: "#proyectos",
-    label: "Proyectos",
+    href: "#cursos",
+    label: "Cursos",
   },
   {
     href: "#contact",
@@ -129,6 +129,12 @@ const isOpen = ref<boolean>(false);
                 as-child
                 variant="ghost"
                 class="justify-start text-base"
+                :class="{
+                  'animate-zoom-in-out': label === 'Cursos',
+                  'text-white font-semibold bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400': label === 'Cursos',
+                  'hover:shadow-lg hover:shadow-amber-400/30': label === 'Cursos',
+                  'transition-all duration-300': label === 'Cursos'
+                }"
               >
                 <a
                   @click="isOpen = false"
@@ -181,14 +187,18 @@ const isOpen = ref<boolean>(false);
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        <NavigationMenuItem v-for="{ href, label } in routeList" :key="label">
           <NavigationMenuLink asChild>
             <Button
-              v-for="{ href, label } in routeList"
-              :key="label"
               as-child
               variant="ghost"
               class="justify-start text-base"
+              :class="{
+                'animate-zoom-in-out': label === 'Cursos',
+                'text-white font-semibold bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400': label === 'Cursos',
+                'hover:shadow-lg hover:shadow-amber-400/30': label === 'Cursos',
+                'transition-all duration-300': label === 'Cursos'
+              }"
             >
               <a :href="href">
                 {{ label }}
@@ -255,5 +265,23 @@ const isOpen = ref<boolean>(false);
 
 .shadow-dark {
   box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.141);
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-zoom-in-out {
+  animation: zoom-in-out 2s infinite;
+  display: inline-block;
+  font-weight: 600;
 }
 </style>

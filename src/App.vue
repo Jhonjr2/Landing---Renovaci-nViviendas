@@ -10,7 +10,7 @@ import Team from "./components/Team.vue";
 import Contact from "./components/Contact.vue";
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
-import Proyect from "./components/Proyect.vue";
+import Cursos from "./components/Cursos.vue";
 </script>
 
 <template>
@@ -22,7 +22,7 @@ import Proyect from "./components/Proyect.vue";
   <Team />
   <Services />
   <HowItWorks />
-  <Proyect />
+  <Cursos id="cursos" />
   <Contact />
   <FAQ />
   <Footer />
