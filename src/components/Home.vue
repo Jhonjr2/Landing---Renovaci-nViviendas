@@ -70,7 +70,7 @@ onUnmounted(() => {
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
           <Button class="w-5/6 md:w-1/4 font-bold group/arrow bg-[#1A8ACC] hover:bg-[#1A8ACC]/80">
-            <a href="" target="_blank">Sobre nosotros</a>
+            <a href="#benefits" target="">Sobre nosotros</a>
             <ArrowRight class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
           </Button>
 
